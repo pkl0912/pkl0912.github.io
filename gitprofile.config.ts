@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'pkl0912', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['pkl0912/', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -35,49 +35,53 @@ const CONFIG = {
         {
           title: 'Moddy',
           description:
-            '지출 없이 예쁜 머리, 쉬운 헤어모델 연결플랫폼 moddy',
+            'Connecting Hair Designer and Hair model',
           imageUrl:
-           ,
+            '',
           link: 'www.moddy.kr',
-        }
+        },
       ],
     },
   },
   seo: {
-    
+    title: '',
+    description: '',
+    imageURL: '',
   },
   social: {
-    linkedin: '' ,
+    linkedin: '',
     twitter: '',
     mastodon: '',
     researchGate: '',
     facebook: '',
-    instagram: '@2k_lin',
+    instagram: '',
     reddit: '',
     threads: '',
     youtube: '', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
+    medium: '',
     dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://pkl0912.tistory.com/',
+    website: '',
     phone: '',
-    email: 'pkl0923@gmail.com',
+    email: 'pkl0912@gmail.com',
   },
   resume: {
     fileUrl:
       '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
+    'Java',
     'MySQL',
+    'Springboot',
     'Git',
     'Docker',
-    'Java',
-    'Springboot',
+    'CSS',
+    'HTML',
   ],
   experiences: [
     {
@@ -90,20 +94,29 @@ const CONFIG = {
   ],
   certifications: [
     {
+      name: '',
+      body: '',
+      year: '',
+      link: '',
     },
   ],
   educations: [
     {
-      institution: 'Sungkyunkwan University',
-      degree: '재직중',
+      institution: 'SungkyunKwan Univ',
+      degree: 'undergraduate',
       from: '2019',
+      to: '2024',
     },
   ],
   publications: [
     {
-     
-    {
-     
+      title: '',
+      conferenceName: '',
+      journalName: '',
+      authors: '',
+      link: '',
+      description:
+        '',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
