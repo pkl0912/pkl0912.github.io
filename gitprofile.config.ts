@@ -94,9 +94,9 @@ const CONFIG = {
   ],
   certifications: [
     {
-      name: '',
-      body: '',
-      year: '',
+      name: 'TOEIC',
+      body: '965',
+      year: '2024',
       link: '',
     },
   ],
